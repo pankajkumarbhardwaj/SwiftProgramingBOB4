@@ -13,6 +13,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C432E3423A92C7A004EC08C /* AdvanceCodable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdvanceCodable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C432E3523A92C8C004EC08C /* JsonParsingWithCodable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JsonParsingWithCodable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B70EDB36230FAE9F00DB1303 /* Introduction to functional Paradigm.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Introduction to functional Paradigm.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B745CEAD22C34F220020AB26 /* CompletionHandler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CompletionHandler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B7601043230D03FA00AA0A6C /* Test File.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Test File.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -52,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C432E3323A92C2A004EC08C /* NewInSwift-10 */ = {
+			isa = PBXGroup;
+			children = (
+				2C432E3523A92C8C004EC08C /* JsonParsingWithCodable.playground */,
+				2C432E3423A92C7A004EC08C /* AdvanceCodable.playground */,
+			);
+			path = "NewInSwift-10";
+			sourceTree = "<group>";
+		};
 		B745CEAE22C36D960020AB26 /* ProtocolOriantedSwift - 5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +119,7 @@
 				B7F6863722C5DB7A000CBDE5 /* MemoryManagement - 6 */,
 				B7C0EE4822FEA3BE00BB6BBB /* Functional Programing - 7 */,
 				B7F75F8223162A9800378666 /* Genric protocol - 8  */,
+				2C432E3323A92C2A004EC08C /* NewInSwift-10 */,
 			);
 			path = swiftPlayground;
 			sourceTree = "<group>";
