@@ -15,6 +15,8 @@
 /* Begin PBXFileReference section */
 		2C432E3423A92C7A004EC08C /* AdvanceCodable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdvanceCodable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C432E3523A92C8C004EC08C /* JsonParsingWithCodable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JsonParsingWithCodable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CBC3C0F23C8C89200A065CA /* IntroductionToErrorHandling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IntroductionToErrorHandling.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CBC3C1023C8C8B300A065CA /* Guard & Defer Statement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Guard & Defer Statement.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B70EDB36230FAE9F00DB1303 /* Introduction to functional Paradigm.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Introduction to functional Paradigm.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B745CEAD22C34F220020AB26 /* CompletionHandler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CompletionHandler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B7601043230D03FA00AA0A6C /* Test File.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Test File.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -61,6 +63,15 @@
 				2C432E3423A92C7A004EC08C /* AdvanceCodable.playground */,
 			);
 			path = "NewInSwift-10";
+			sourceTree = "<group>";
+		};
+		2CBC3C0E23C8C86500A065CA /* Swift Fundamental - 1 */ = {
+			isa = PBXGroup;
+			children = (
+				2CBC3C1023C8C8B300A065CA /* Guard & Defer Statement.playground */,
+				2CBC3C0F23C8C89200A065CA /* IntroductionToErrorHandling.playground */,
+			);
+			path = "Swift Fundamental - 1";
 			sourceTree = "<group>";
 		};
 		B745CEAE22C36D960020AB26 /* ProtocolOriantedSwift - 5 */ = {
@@ -113,6 +124,7 @@
 		B7DADB01229E3778008D0852 /* swiftPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				2CBC3C0E23C8C86500A065CA /* Swift Fundamental - 1 */,
 				B7601043230D03FA00AA0A6C /* Test File.playground */,
 				B7DADB02229E37A1008D0852 /* Closure - 4 */,
 				B745CEAE22C36D960020AB26 /* ProtocolOriantedSwift - 5 */,
