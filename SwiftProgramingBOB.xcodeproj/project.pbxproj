@@ -13,6 +13,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C13C60B24230F8B004FC779 /* Guard & Defer Statement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Guard & Defer Statement.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C13C60C24230F8B004FC779 /* TypeCasting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeCasting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C13C60D24230F8B004FC779 /* IntroductionGenerics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IntroductionGenerics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C13C60E24230F8C004FC779 /* IntroductionToErrorHandling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IntroductionToErrorHandling.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C13C60F24230F8C004FC779 /* Subscript.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subscript.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C13C61124231070004FC779 /* EnumBasic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EnumBasic.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C13C61224231070004FC779 /* NestedEnum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NestedEnum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C13C61324231070004FC779 /* Static&MutatingMethodWithSelf.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Static&MutatingMethodWithSelf.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C432E3423A92C7A004EC08C /* AdvanceCodable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdvanceCodable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C432E3523A92C8C004EC08C /* JsonParsingWithCodable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JsonParsingWithCodable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B70EDB36230FAE9F00DB1303 /* Introduction to functional Paradigm.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Introduction to functional Paradigm.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -54,32 +62,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C432E3323A92C2A004EC08C /* NewInSwift-10 */ = {
+		2C13C60A24230F30004FC779 /* 2 - Swift Fundamental */ = {
+			isa = PBXGroup;
+			children = (
+				2C13C60B24230F8B004FC779 /* Guard & Defer Statement.playground */,
+				2C13C60D24230F8B004FC779 /* IntroductionGenerics.playground */,
+				2C13C60E24230F8C004FC779 /* IntroductionToErrorHandling.playground */,
+				2C13C60F24230F8C004FC779 /* Subscript.playground */,
+				2C13C60C24230F8B004FC779 /* TypeCasting.playground */,
+			);
+			path = "2 - Swift Fundamental";
+			sourceTree = "<group>";
+		};
+		2C13C61024231042004FC779 /* 9 - Advance Enum  */ = {
+			isa = PBXGroup;
+			children = (
+				2C13C61124231070004FC779 /* EnumBasic.playground */,
+				2C13C61224231070004FC779 /* NestedEnum.playground */,
+				2C13C61324231070004FC779 /* Static&MutatingMethodWithSelf.playground */,
+			);
+			path = "9 - Advance Enum ";
+			sourceTree = "<group>";
+		};
+		2C432E3323A92C2A004EC08C /* 10 - NewInSwift4 */ = {
 			isa = PBXGroup;
 			children = (
 				2C432E3523A92C8C004EC08C /* JsonParsingWithCodable.playground */,
 				2C432E3423A92C7A004EC08C /* AdvanceCodable.playground */,
 			);
-			path = "NewInSwift-10";
+			path = "10 - NewInSwift4";
 			sourceTree = "<group>";
 		};
-		B745CEAE22C36D960020AB26 /* ProtocolOriantedSwift - 5 */ = {
+		B745CEAE22C36D960020AB26 /* 5 - ProtocolOriantedSwift  */ = {
 			isa = PBXGroup;
 			children = (
 				B78CA2F722F9AA9800682CB2 /* ProtocolExtension.playground */,
 				B78CA2FA22F9B1FF00682CB2 /* ProtocolAsAType.playground */,
 			);
-			path = "ProtocolOriantedSwift - 5";
+			path = "5 - ProtocolOriantedSwift ";
 			sourceTree = "<group>";
 		};
-		B7C0EE4822FEA3BE00BB6BBB /* Functional Programing - 7 */ = {
+		B7C0EE4822FEA3BE00BB6BBB /* 7 - Functional Programing */ = {
 			isa = PBXGroup;
 			children = (
 				B70EDB36230FAE9F00DB1303 /* Introduction to functional Paradigm.playground */,
 				B7F75F8123162A4200378666 /* Filter.playground */,
 				CD57ABBB2314F50F005F6274 /* Map.playground */,
 			);
-			path = "Functional Programing - 7";
+			path = "7 - Functional Programing";
 			sourceTree = "<group>";
 		};
 		B7DADAE3229E3669008D0852 = {
@@ -114,17 +144,19 @@
 			isa = PBXGroup;
 			children = (
 				B7601043230D03FA00AA0A6C /* Test File.playground */,
-				B7DADB02229E37A1008D0852 /* Closure - 4 */,
-				B745CEAE22C36D960020AB26 /* ProtocolOriantedSwift - 5 */,
-				B7F6863722C5DB7A000CBDE5 /* MemoryManagement - 6 */,
-				B7C0EE4822FEA3BE00BB6BBB /* Functional Programing - 7 */,
-				B7F75F8223162A9800378666 /* Genric protocol - 8  */,
-				2C432E3323A92C2A004EC08C /* NewInSwift-10 */,
+				2C13C60A24230F30004FC779 /* 2 - Swift Fundamental */,
+				B7DADB02229E37A1008D0852 /* 4 - Closure */,
+				B745CEAE22C36D960020AB26 /* 5 - ProtocolOriantedSwift  */,
+				B7F6863722C5DB7A000CBDE5 /* 6 - MemoryManagement */,
+				B7C0EE4822FEA3BE00BB6BBB /* 7 - Functional Programing */,
+				B7F75F8223162A9800378666 /* 8 - Genric protocol  */,
+				2C13C61024231042004FC779 /* 9 - Advance Enum  */,
+				2C432E3323A92C2A004EC08C /* 10 - NewInSwift4 */,
 			);
 			path = swiftPlayground;
 			sourceTree = "<group>";
 		};
-		B7DADB02229E37A1008D0852 /* Closure - 4 */ = {
+		B7DADB02229E37A1008D0852 /* 4 - Closure */ = {
 			isa = PBXGroup;
 			children = (
 				B7DADB03229E37F3008D0852 /* Intro Closure 1.playground */,
@@ -134,10 +166,10 @@
 				B7E8D97A22C247FE0021475D /* TralingClosure.playground */,
 				B745CEAD22C34F220020AB26 /* CompletionHandler.playground */,
 			);
-			path = "Closure - 4";
+			path = "4 - Closure";
 			sourceTree = "<group>";
 		};
-		B7F6863722C5DB7A000CBDE5 /* MemoryManagement - 6 */ = {
+		B7F6863722C5DB7A000CBDE5 /* 6 - MemoryManagement */ = {
 			isa = PBXGroup;
 			children = (
 				B7F6863922C5DBD8000CBDE5 /* AutomaticRefrenceCounting.playground */,
@@ -145,10 +177,10 @@
 				B7F6863B22C5EFBF000CBDE5 /* ClosureRetainCycle.playground */,
 				B7F6863C22C60CC8000CBDE5 /* EscapingAndAutoClosures.playground */,
 			);
-			path = "MemoryManagement - 6";
+			path = "6 - MemoryManagement";
 			sourceTree = "<group>";
 		};
-		B7F75F8223162A9800378666 /* Genric protocol - 8  */ = {
+		B7F75F8223162A9800378666 /* 8 - Genric protocol  */ = {
 			isa = PBXGroup;
 			children = (
 				B7F75F8323162B0B00378666 /* Introduction To Associated Type.playground */,
@@ -157,7 +189,7 @@
 				B7B80A402326783E0050FCEF /* Protocol Pitfalls.playground */,
 				B7B80A41232681580050FCEF /* Type Eresar.playground */,
 			);
-			path = "Genric protocol - 8 ";
+			path = "8 - Genric protocol ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
