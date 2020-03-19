@@ -124,8 +124,8 @@
 		B7DADB01229E3778008D0852 /* swiftPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				2CBC3C0E23C8C86500A065CA /* Swift Fundamental - 1 */,
 				B7601043230D03FA00AA0A6C /* Test File.playground */,
+				2CBC3C0E23C8C86500A065CA /* Swift Fundamental - 1 */,
 				B7DADB02229E37A1008D0852 /* Closure - 4 */,
 				B745CEAE22C36D960020AB26 /* ProtocolOriantedSwift - 5 */,
 				B7F6863722C5DB7A000CBDE5 /* MemoryManagement - 6 */,
