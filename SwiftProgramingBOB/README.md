@@ -1,1 +1,1 @@
-## Open the: swift Playground 
+## Open: swift Playground 
