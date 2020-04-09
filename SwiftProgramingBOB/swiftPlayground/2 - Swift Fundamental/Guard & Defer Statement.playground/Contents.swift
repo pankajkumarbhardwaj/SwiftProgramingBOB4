@@ -29,6 +29,8 @@ func simpleDeferTwo() -> Int {
 }
 print(simpleDeferTwo())
 
+print("\n *********** inoout in Swift Started *********** \n")
+
 //: ## inout In Swift
 
 var myConstant:Int = 2
@@ -56,8 +58,8 @@ class Employee {
 }
 
 func changeEmployeeData(emp : Employee){
-    employee.name = "Suneet"
-    employee.age = 25
+    emp.name = "Suneet"
+    emp.age = 25
 }
 
 let employee = Employee(name: "Random", age : 10)

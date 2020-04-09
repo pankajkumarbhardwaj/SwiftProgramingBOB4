@@ -66,10 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				2C13C60B24230F8B004FC779 /* Guard & Defer Statement.playground */,
-				2C13C60D24230F8B004FC779 /* IntroductionGenerics.playground */,
 				2C13C60E24230F8C004FC779 /* IntroductionToErrorHandling.playground */,
-				2C13C60F24230F8C004FC779 /* Subscript.playground */,
 				2C13C60C24230F8B004FC779 /* TypeCasting.playground */,
+				2C13C60D24230F8B004FC779 /* IntroductionGenerics.playground */,
+				2C13C60F24230F8C004FC779 /* Subscript.playground */,
 			);
 			path = "2 - Swift Fundamental";
 			sourceTree = "<group>";
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				2C13C61124231070004FC779 /* EnumBasic.playground */,
-				2C13C61224231070004FC779 /* NestedEnum.playground */,
 				2C13C61324231070004FC779 /* Static&MutatingMethodWithSelf.playground */,
+				2C13C61224231070004FC779 /* NestedEnum.playground */,
 			);
 			path = "9 - Advance Enum ";
 			sourceTree = "<group>";
