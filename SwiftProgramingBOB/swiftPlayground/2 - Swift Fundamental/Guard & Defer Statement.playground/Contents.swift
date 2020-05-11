@@ -31,22 +31,10 @@ print(simpleDeferTwo())
 
 print("\n *********** inoout in Swift Started *********** \n")
 
-//: ## inout In Swift
-
-var myConstant:Int = 2
-var myConstantTwo:Int = 4
-
-func usingInout(number: inout Int) {
-    number += 2
-}
-
-usingInout(number: &myConstant)
-print(myConstant)
-
-usingInout(number: &myConstantTwo)
-print(myConstantTwo)
-
-
+/*:
+##  inout In Swift
+ * All parameters passed into a Swift function are constants, so you can’t change them. If you want, you can pass in one or more parameters as inout, which means they can be changed inside your function, and those changes reflect in the original value outside the function.
+  */
 
 class Employee {
     var name : String
@@ -74,3 +62,18 @@ print(employee.age)     //25
 
 
 print("employee Instance Name:", employee.name, "Age:" ,employee.age)
+
+//: Now the problem occurs when your argument is of primitive data type, you simply can’t change the value.
+
+var myConstant:Int = 2
+var myConstantTwo:Int = 4
+
+func usingInout(number: inout Int) {
+    number += 2
+}
+
+usingInout(number: &myConstant)
+print(myConstant)
+
+usingInout(number: &myConstantTwo)
+print(myConstantTwo)

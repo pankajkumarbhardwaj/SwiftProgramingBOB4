@@ -56,7 +56,7 @@ let japnes = japanese()
 let all:[Human] = [koren , japnes]
 
 for human in all {
-    if let korean = human as? Korean{
+    if let korean = human as? Korean {
         koren.SingGangNamStyle()
     }
     
