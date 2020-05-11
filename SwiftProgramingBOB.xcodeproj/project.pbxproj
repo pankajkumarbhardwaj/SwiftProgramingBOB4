@@ -21,8 +21,12 @@
 		2C13C61124231070004FC779 /* EnumBasic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EnumBasic.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C13C61224231070004FC779 /* NestedEnum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NestedEnum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C13C61324231070004FC779 /* Static&MutatingMethodWithSelf.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Static&MutatingMethodWithSelf.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C42B2B02469347400ECD508 /* Override Method, Init, Property.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Override Method, Init, Property.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C432E3423A92C7A004EC08C /* AdvanceCodable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdvanceCodable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C432E3523A92C8C004EC08C /* JsonParsingWithCodable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JsonParsingWithCodable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CE1091B246919DF0040F851 /* Convenience Init.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Convenience Init.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CE1091C246923720040F851 /* ComputedProperty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ComputedProperty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CE1091D246930460040F851 /* Failable Init.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Failable Init.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B70EDB36230FAE9F00DB1303 /* Introduction to functional Paradigm.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Introduction to functional Paradigm.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B745CEAD22C34F220020AB26 /* CompletionHandler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CompletionHandler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B7601043230D03FA00AA0A6C /* Test File.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Test File.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -93,6 +97,17 @@
 			path = "10 - NewInSwift4";
 			sourceTree = "<group>";
 		};
+		2CE1091A246919820040F851 /* 3 - Object Orianted Swift  */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1091B246919DF0040F851 /* Convenience Init.playground */,
+				2CE1091C246923720040F851 /* ComputedProperty.playground */,
+				2CE1091D246930460040F851 /* Failable Init.playground */,
+				2C42B2B02469347400ECD508 /* Override Method, Init, Property.playground */,
+			);
+			path = "3 - Object Orianted Swift ";
+			sourceTree = "<group>";
+		};
 		B745CEAE22C36D960020AB26 /* 5 - ProtocolOriantedSwift  */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +160,7 @@
 			children = (
 				B7601043230D03FA00AA0A6C /* Test File.playground */,
 				2C13C60A24230F30004FC779 /* 2 - Swift Fundamental */,
+				2CE1091A246919820040F851 /* 3 - Object Orianted Swift  */,
 				B7DADB02229E37A1008D0852 /* 4 - Closure */,
 				B745CEAE22C36D960020AB26 /* 5 - ProtocolOriantedSwift  */,
 				B7F6863722C5DB7A000CBDE5 /* 6 - MemoryManagement */,
