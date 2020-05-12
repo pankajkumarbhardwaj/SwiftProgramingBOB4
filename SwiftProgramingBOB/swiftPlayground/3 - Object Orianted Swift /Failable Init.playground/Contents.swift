@@ -15,7 +15,7 @@ enum NameError:Error {
 class Course {
     var name:String
     
-    init?(name:String) throws {
+    init?(name:String) {
         if name == "" {
             return nil
         }
@@ -23,5 +23,6 @@ class Course {
     }
 }
 
-let myCourse = try Course(name: "MyCourse")
-let blankCourse =   try! Course(name: "")
+let myCourse = Course(name: "MyCourse")
+let blankCourse = Course(name: "")
+
