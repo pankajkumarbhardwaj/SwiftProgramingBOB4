@@ -27,6 +27,11 @@
 		2C97E717246A75D20097E5C5 /* TwoPhase Init.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "TwoPhase Init.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C97E718246A7E5D0097E5C5 /* Type Property And Method .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Type Property And Method .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C97E719246A86130097E5C5 /* SingletonPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SingletonPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CB51BDC24C81745003457EE /* ProtocolOriantedEnum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolOriantedEnum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CB51BDD24C8177F003457EE /* RecursiveEnum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RecursiveEnum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CB51BDE24C817A3003457EE /* GenericEnum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GenericEnum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CB51BDF24C817E4003457EE /* ErrorHandlingWithResultType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorHandlingWithResultType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2CC108DD24C1C61900F89DC2 /* Reduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Reduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CE1091B246919DF0040F851 /* Convenience Init.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Convenience Init.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CE1091C246923720040F851 /* ComputedProperty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ComputedProperty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2CE1091D246930460040F851 /* Failable Init.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Failable Init.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -87,6 +92,10 @@
 				2C13C61124231070004FC779 /* EnumBasic.playground */,
 				2C13C61324231070004FC779 /* Static&MutatingMethodWithSelf.playground */,
 				2C13C61224231070004FC779 /* NestedEnum.playground */,
+				2CB51BDC24C81745003457EE /* ProtocolOriantedEnum.playground */,
+				2CB51BDD24C8177F003457EE /* RecursiveEnum.playground */,
+				2CB51BDE24C817A3003457EE /* GenericEnum.playground */,
+				2CB51BDF24C817E4003457EE /* ErrorHandlingWithResultType.playground */,
 			);
 			path = "9 - Advance Enum ";
 			sourceTree = "<group>";
@@ -114,6 +123,22 @@
 			path = "3 - Object Orianted Swift ";
 			sourceTree = "<group>";
 		};
+		2CFC9A3524B4A7D9004DF675 /* SwiftWithBOB */ = {
+			isa = PBXGroup;
+			children = (
+				2C13C60A24230F30004FC779 /* 2 - Swift Fundamental */,
+				2CE1091A246919820040F851 /* 3 - Object Orianted Swift  */,
+				B7DADB02229E37A1008D0852 /* 4 - Closure */,
+				B745CEAE22C36D960020AB26 /* 5 - ProtocolOriantedSwift  */,
+				B7F6863722C5DB7A000CBDE5 /* 6 - MemoryManagement */,
+				B7C0EE4822FEA3BE00BB6BBB /* 7 - Functional Programing */,
+				B7F75F8223162A9800378666 /* 8 - Genric protocol  */,
+				2C13C61024231042004FC779 /* 9 - Advance Enum  */,
+				2C432E3323A92C2A004EC08C /* 10 - NewInSwift4 */,
+			);
+			path = SwiftWithBOB;
+			sourceTree = "<group>";
+		};
 		B745CEAE22C36D960020AB26 /* 5 - ProtocolOriantedSwift  */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +154,7 @@
 				B70EDB36230FAE9F00DB1303 /* Introduction to functional Paradigm.playground */,
 				B7F75F8123162A4200378666 /* Filter.playground */,
 				CD57ABBB2314F50F005F6274 /* Map.playground */,
+				2CC108DD24C1C61900F89DC2 /* Reduce.playground */,
 			);
 			path = "7 - Functional Programing";
 			sourceTree = "<group>";
@@ -165,15 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				B7601043230D03FA00AA0A6C /* Test File.playground */,
-				2C13C60A24230F30004FC779 /* 2 - Swift Fundamental */,
-				2CE1091A246919820040F851 /* 3 - Object Orianted Swift  */,
-				B7DADB02229E37A1008D0852 /* 4 - Closure */,
-				B745CEAE22C36D960020AB26 /* 5 - ProtocolOriantedSwift  */,
-				B7F6863722C5DB7A000CBDE5 /* 6 - MemoryManagement */,
-				B7C0EE4822FEA3BE00BB6BBB /* 7 - Functional Programing */,
-				B7F75F8223162A9800378666 /* 8 - Genric protocol  */,
-				2C13C61024231042004FC779 /* 9 - Advance Enum  */,
-				2C432E3323A92C2A004EC08C /* 10 - NewInSwift4 */,
+				2CFC9A3524B4A7D9004DF675 /* SwiftWithBOB */,
 			);
 			path = swiftPlayground;
 			sourceTree = "<group>";
@@ -422,15 +440,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DXZRGF2244;
+				DEVELOPMENT_TEAM = CKPZ4US6FP;
 				INFOPLIST_FILE = SwiftProgramingBOB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zmobile.SwiftProgramingBOB;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmobile.SwiftProgramingBOBa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,15 +460,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DXZRGF2244;
+				DEVELOPMENT_TEAM = CKPZ4US6FP;
 				INFOPLIST_FILE = SwiftProgramingBOB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zmobile.SwiftProgramingBOB;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmobile.SwiftProgramingBOBa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

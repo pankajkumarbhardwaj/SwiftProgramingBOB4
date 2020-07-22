@@ -44,14 +44,30 @@ class classB: classA {
 
 
 //______________________
-let objA = classA()
-let objB = classB()
+//let objA = classA()
+//let objB = classB()
 
 class classC: classA {
 }
-let objC = classC()
+//let objC = classC() //This is run but not run with inetilizer
+
 // prints 10 ..superclass init method gets called.
 
+
+//This will show error its mandatory to define required or override in child class
+class classAA {
+    init() {
+        let a = 20
+        print(a)
+    }
+}
+
+class classD: classAA {
+    override init() {
+        print("20 override")
+    }
+}
+let objd = classD()
 //: Write the required modifier before the definition of a class initializer to indicate that every subclass of the class must implement that initializer.
 
 //: You must also write the required modifier before every subclass implementation of a required initializer, to indicate that the initializer requirement applies to further subclasses in the chain. You do not write the override modifier when overriding a required designated initializer.
