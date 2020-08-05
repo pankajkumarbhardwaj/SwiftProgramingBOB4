@@ -7,10 +7,7 @@ import PlaygroundSupport
 # Error Handling with result type
 ___
 */
-
-
 //: ### HTTP Request
-
 //: Desgin Error
 enum HTTPError {
     case notFound404

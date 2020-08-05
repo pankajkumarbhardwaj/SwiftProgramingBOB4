@@ -13,6 +13,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0A774E24DAA3E70031FF6D /* AccessControl.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AccessControl.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C0A774F24DAA4050031FF6D /* KeyPaths.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KeyPaths.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C0A775024DAA4200031FF6D /* GenricSubscripts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GenricSubscripts.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C0A775124DAAE240031FF6D /* AdvancedDictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdvancedDictionary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C13C60B24230F8B004FC779 /* Guard & Defer Statement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Guard & Defer Statement.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C13C60C24230F8B004FC779 /* TypeCasting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeCasting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C13C60D24230F8B004FC779 /* IntroductionGenerics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IntroductionGenerics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -74,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C0A775224DADE2B0031FF6D /* 11-AdvanceSwift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "11-AdvanceSwift";
+			sourceTree = "<group>";
+		};
 		2C13C60A24230F30004FC779 /* 2 - Swift Fundamental */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +114,16 @@
 		2C432E3323A92C2A004EC08C /* 10 - NewInSwift4 */ = {
 			isa = PBXGroup;
 			children = (
+				2C0A774E24DAA3E70031FF6D /* AccessControl.playground */,
+				2C0A774F24DAA4050031FF6D /* KeyPaths.playground */,
+				2C0A775024DAA4200031FF6D /* GenricSubscripts.playground */,
 				2C432E3523A92C8C004EC08C /* JsonParsingWithCodable.playground */,
 				2C432E3423A92C7A004EC08C /* AdvanceCodable.playground */,
+				2C0A775124DAAE240031FF6D /* AdvancedDictionary.playground */,
 			);
 			path = "10 - NewInSwift4";
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		2CE1091A246919820040F851 /* 3 - Object Orianted Swift  */ = {
 			isa = PBXGroup;
@@ -135,6 +151,7 @@
 				B7F75F8223162A9800378666 /* 8 - Genric protocol  */,
 				2C13C61024231042004FC779 /* 9 - Advance Enum  */,
 				2C432E3323A92C2A004EC08C /* 10 - NewInSwift4 */,
+				2C0A775224DADE2B0031FF6D /* 11-AdvanceSwift */,
 			);
 			path = SwiftWithBOB;
 			sourceTree = "<group>";
